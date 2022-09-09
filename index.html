@@ -101,6 +101,23 @@
     <hr>
     <h3> Code! This is a code question and some code solution! Exciting!</h3>
 
+    The question:
+
+    <blockquote>
+        I don't want the search engines to index my imprint page. How could I do that?
+    </blockquote>
+    source: <a href:"https://stackoverflow.com/questions/4055316/how-to-prevent-search-engines-from-indexing-a-single-page-of-my-website">Stack Overflow Question</a>
+
+
+    <p>and our solution: </p>
+
+    <pre>
+        < meta name="robots" content="noindex, nofollow">
+        <!-- or -->
+        < meta name="robots" content="none">
+        <!-- or if you only care about Google... -->
+        < meta name="googlebot" content="noindex, nofollow">
+    </pre>
 
 
 
